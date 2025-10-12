@@ -1,0 +1,245 @@
+[
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "slug": "chatgpt",
+    "category": "Text AI",
+    "shortDescription": "General-purpose conversational AI for writing, research, and coding assistance.",
+    "description": "ChatGPT is a conversational AI that assists with writing, ideation, coding help, and more. Great for drafting, brainstorming, and answering questions.",
+    "pricing": "Freemium",
+    "priceRange": "Free, Plus $20/mo",
+    "rating": 5,
+    "pros": [
+      "Very capable across tasks",
+      "Fast to get value",
+      "Large ecosystem"
+    ],
+    "cons": [
+      "May hallucinate",
+      "Needs good prompting"
+    ],
+    "website": "https://chat.openai.com",
+    "logo": "assets/logos/ChatGPT-Logo.svg",
+    "tags": [
+      "beginner-friendly",
+      "general-purpose"
+    ],
+    "hasFreeTrial": true,
+    "apiAvailable": true,
+
+    "platforms": ["Web", "iOS", "Android", "Browser Extension"],
+    "integrations": ["Zapier", "Slack", "Notion", "Google Drive"],
+    "exportFormats": ["TXT", "PDF", "Markdown"],
+    "languagesSupported": 50,
+    "learningCurve": "Beginner",
+    "onboardingTimeMins": 5,
+    "docsQuality": 5,
+    "supportChannels": ["Help Center", "Email", "Community"],
+    "supportSLA": "24h standard",
+    "roadmapTransparency": true,
+    "communitySize": "Large",
+    "updateFrequency": "Weekly",
+    "accuracyOrQualityScore": 92,
+    "latencyClaimMs": 800,
+    "usageLimits": "Free tier daily/monthly caps; higher limits on paid plans",
+    "rateLimits": "Varies by plan and API",
+    "security": ["GDPR", "SOC2"],
+    "dataOwnership": "User retains content; export available",
+    "storesUserData": true,
+    "piiPolicy": "Opt-out/retention controls; sensitive data discouraged",
+    "offlineMode": false
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "slug": "claude",
+    "category": "Text AI",
+    "shortDescription": "Helpful writing and analysis assistant with long-context strength.",
+    "description": "Claude is great for thoughtful writing, analysis, and summarization with strong safety alignment and long context windows.",
+    "pricing": "Freemium",
+    "priceRange": "Free, Pro $20/mo",
+    "rating": 4,
+    "pros": [
+      "Strong writing quality",
+      "Long context handling"
+    ],
+    "cons": [
+      "Regional availability varies"
+    ],
+    "website": "https://claude.ai",
+    "logo": "assets/logos/Claude_AI_logo.svg",
+    "tags": [
+      "writing",
+      "analysis"
+    ],
+    "hasFreeTrial": true,
+    "apiAvailable": true,
+
+    "platforms": ["Web", "iOS", "Android"],
+    "integrations": ["Slack", "Notion", "Google Drive"],
+    "exportFormats": ["TXT", "PDF", "Markdown"],
+    "languagesSupported": 30,
+    "learningCurve": "Beginner",
+    "onboardingTimeMins": 5,
+    "docsQuality": 4,
+    "supportChannels": ["Help Center", "Email", "Community"],
+    "supportSLA": "24–48h standard",
+    "roadmapTransparency": true,
+    "communitySize": "Large",
+    "updateFrequency": "Weekly",
+    "accuracyOrQualityScore": 90,
+    "latencyClaimMs": 900,
+    "usageLimits": "Free tier conversational caps; higher limits on paid plans",
+    "rateLimits": "Varies by plan and API",
+    "security": ["GDPR", "SOC2"],
+    "dataOwnership": "User retains content; export available",
+    "storesUserData": true,
+    "piiPolicy": "Privacy-first; sensitive data discouraged; opt-outs available",
+    "offlineMode": false
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "slug": "midjourney",
+    "category": "Image AI",
+    "shortDescription": "Text-to-image generation with a distinct artistic style.",
+    "description": "Midjourney generates high-quality images from text prompts. Popular among designers and artists for its unique aesthetic.",
+    "pricing": "Paid",
+    "priceRange": "From $10/mo",
+    "rating": 4,
+    "pros": [
+      "High-quality images",
+      "Active community"
+    ],
+    "cons": [
+      "Discord-based workflow",
+      "No free plan"
+    ],
+    "website": "https://www.midjourney.com",
+    "logo": "assets/logos/Midjourney.svg",
+    "tags": [
+      "design",
+      "creative"
+    ],
+    "hasFreeTrial": false,
+    "apiAvailable": false,
+
+    "platforms": ["Web (Discord)", "Desktop (Discord)"],
+    "integrations": ["Discord"],
+    "exportFormats": ["PNG", "JPG"],
+    "languagesSupported": 10,
+    "learningCurve": "Intermediate",
+    "onboardingTimeMins": 15,
+    "docsQuality": 4,
+    "supportChannels": ["Help Center", "Community", "Discord"],
+    "supportSLA": "Best-effort via community; email for billing",
+    "roadmapTransparency": true,
+    "communitySize": "Large",
+    "updateFrequency": "Monthly",
+    "accuracyOrQualityScore": 85,
+    "latencyClaimMs": 3000,
+    "usageLimits": "Generation minutes/fast hours by plan",
+    "rateLimits": "Queue-based; varies by plan",
+    "security": ["GDPR"],
+    "dataOwnership": "Commercial usage per plan; terms apply",
+    "storesUserData": true,
+    "piiPolicy": "Prompts/images may be retained per policy; sensitive data discouraged",
+    "offlineMode": false
+  },
+  {
+    "id": "runway",
+    "name": "Runway",
+    "slug": "runway",
+    "category": "Video AI",
+    "shortDescription": "AI video editing and generation tools for creators.",
+    "description": "Runway provides AI-powered video editing, background removal, and generative video models suitable for creators and marketers.",
+    "pricing": "Freemium",
+    "priceRange": "Free, paid tiers available",
+    "rating": 4,
+    "pros": [
+      "Easy to use",
+      "Strong video tools"
+    ],
+    "cons": [
+      "Export limits on free tier"
+    ],
+    "website": "https://runwayml.com",
+    "logo": "assets/logos/Runway_Black_Logo_SVG.svg",
+    "tags": [
+      "video",
+      "creator"
+    ],
+    "hasFreeTrial": true,
+    "apiAvailable": true,
+
+    "platforms": ["Web"],
+    "integrations": ["Adobe Premiere Pro", "Google Drive"],
+    "exportFormats": ["MP4", "MOV", "PNG"],
+    "languagesSupported": 15,
+    "learningCurve": "Beginner",
+    "onboardingTimeMins": 10,
+    "docsQuality": 4,
+    "supportChannels": ["Help Center", "Email", "Community"],
+    "supportSLA": "24–48h standard",
+    "roadmapTransparency": true,
+    "communitySize": "Medium",
+    "updateFrequency": "Monthly",
+    "accuracyOrQualityScore": 80,
+    "latencyClaimMs": 2500,
+    "usageLimits": "Export/render limits by plan",
+    "rateLimits": "Varies by feature; processing queue applies",
+    "security": ["GDPR", "SOC2"],
+    "dataOwnership": "User retains rights to uploads/exports per terms",
+    "storesUserData": true,
+    "piiPolicy": "Media handled per policy; sensitive content discouraged",
+    "offlineMode": false
+  },
+  {
+    "id": "copilot",
+    "name": "GitHub Copilot",
+    "slug": "github-copilot",
+    "category": "Code AI",
+    "shortDescription": "Pair programmer that autocompletes and suggests code.",
+    "description": "GitHub Copilot speeds up coding by suggesting functions, tests, and boilerplate directly in your IDE.",
+    "pricing": "Paid",
+    "priceRange": "$10/mo individual",
+    "rating": 5,
+    "pros": [
+      "Great IDE integration",
+      "Boosts productivity"
+    ],
+    "cons": [
+      "Occasional off-target suggestions"
+    ],
+    "website": "https://github.com/features/copilot",
+    "logo": "assets/logos/GitHub_Copilot_(2025).svg",
+    "tags": [
+      "developer",
+      "productivity"
+    ],
+    "hasFreeTrial": true,
+    "apiAvailable": false,
+
+    "platforms": ["Desktop (VS Code, JetBrains, Neovim)"],
+    "integrations": ["GitHub", "Azure DevOps"],
+    "exportFormats": ["Code files (various languages)"],
+    "languagesSupported": 12,
+    "learningCurve": "Beginner",
+    "onboardingTimeMins": 10,
+    "docsQuality": 5,
+    "supportChannels": ["Help Center", "Community", "Email (enterprise)"],
+    "supportSLA": "Best-effort for individuals; enterprise SLAs available",
+    "roadmapTransparency": true,
+    "communitySize": "Large",
+    "updateFrequency": "Weekly",
+    "accuracyOrQualityScore": 88,
+    "latencyClaimMs": 150,
+    "usageLimits": "Fair-use style; depends on plan",
+    "rateLimits": "IDE/extension dependent; service-side protections",
+    "security": ["GDPR", "SOC2"],
+    "dataOwnership": "Code remains yours; repo privacy respected",
+    "storesUserData": true,
+    "piiPolicy": "Does not use private repo content for public training; see policy",
+    "offlineMode": false
+  }
+]

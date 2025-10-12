@@ -1,0 +1,47 @@
+[
+  {
+    "id": "getting-started-ai-tools",
+    "slug": "getting-started-with-ai-tools",
+    "title": "Getting Started with AI Tools: A Plain-English Guide",
+    "subtitle": "What to try first, how to evaluate, and common mistakes to avoid.",
+    "author": "Team AI Tools Compare",
+    "publishedAt": "2025-09-10",
+    "updatedAt": "2025-09-22",
+    "category": "Beginner",
+    "tags": ["beginner", "workflow", "productivity"],
+    "readMinutes": 7,
+    "heroImage": "assets/blog/hero-getting-started.jpg",
+    "excerpt": "New to AI tools? This no-jargon guide shows you how to pick your first tool, test it quickly, and avoid wasted time.",
+    "contentHtml": "<h2>Why start now?</h2><p>AI tools can save hours per week if you deploy them deliberately. Start small, measure results, then scale.</p><h3>Quick plan</h3><ol><li>Pick one task to automate (email drafts, transcripts, design variations).</li><li>Choose 2 tools max to test for that task.</li><li>Run a 20–30 minute head-to-head.</li><li>Keep the winner, set a weekly cadence, measure gain.</li></ol><h3>Common mistakes</h3><ul><li>Trying 10 tools at once.</li><li>No before/after time tracking.</li><li>Ignoring data ownership and privacy.</li></ul>"
+  },
+  {
+    "id": "text-ai-shootout",
+    "slug": "text-ai-shootout-gpt-claude",
+    "title": "Text AI Shootout: ChatGPT vs Claude (Clarity, Speed, Cost)",
+    "subtitle": "We compare writing quality, hallucinations, context, and pricing.",
+    "author": "Team AI Tools Compare",
+    "publishedAt": "2025-09-25",
+    "updatedAt": "2025-09-28",
+    "category": "Comparisons",
+    "tags": ["text-ai", "chatgpt", "claude"],
+    "readMinutes": 8,
+    "heroImage": "assets/blog/hero-text-shootout.jpg",
+    "excerpt": "Which text AI should you pick for everyday work? We tested clarity, speed, and context handling on real tasks.",
+    "contentHtml": "<h2>How we tested</h2><p>We used the same prompts across email, analysis, and coding tasks with equal temperature and length.</p><h3>Results</h3><ul><li><b>Clarity:</b> Claude</li><li><b>Speed:</b> ChatGPT</li><li><b>Context length:</b> Claude</li></ul><p>Both are great; choose based on task and budget.</p>"
+  },
+  {
+    "id": "image-ai-buyer-checklist",
+    "slug": "image-ai-buyer-checklist",
+    "title": "Buying an Image AI: The 12-Point Checklist",
+    "subtitle": "From style control to licensing and export formats.",
+    "author": "Team AI Tools Compare",
+    "publishedAt": "2025-09-18",
+    "updatedAt": "2025-09-18",
+    "category": "Guides",
+    "tags": ["image-ai", "midjourney", "runway"],
+    "readMinutes": 6,
+    "heroImage": "assets/blog/hero-image-checklist.jpg",
+    "excerpt": "Before you pay, check these 12 things: style control, upscaling, licensing, privacy, and integration.",
+    "contentHtml": "<h2>What to check</h2><ol><li>Style consistency</li><li>Prompt controls</li><li>Commercial licensing</li><li>Export sizes and formats</li><li>API availability</li><li>Community & support</li></ol>"
+  }
+]

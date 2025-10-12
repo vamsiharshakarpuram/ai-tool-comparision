@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth transitions and focus rings */
+* { @apply outline-offset-2; }
+.container { @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8; }
+.btn-primary { @apply inline-flex items-center gap-2 rounded-2xl bg-brand-600 px-4 py-2 text-white font-medium shadow hover:bg-brand-700 transition; }
+.btn-secondary { @apply inline-flex items-center gap-2 rounded-2xl bg-white px-4 py-2 text-brand-700 ring-1 ring-brand-200 hover:bg-brand-50 transition; }
+
+/* Enhanced card for better visibility and interaction */
+.card { @apply rounded-2xl bg-white shadow-lg ring-1 ring-slate-200 p-6 transition-transform hover:scale-105 hover:shadow-xl; }
+.grid-auto { @apply grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4; }
+.tool-logo { @apply h-14 w-14 rounded-xl ring-2 ring-brand-200 object-cover shadow; background: linear-gradient(135deg, #f3f4f6 0%, #e0e7ff 100%); }
+.btn-primary, .btn-secondary { @apply transition-transform hover:scale-105; }
+.badge { @apply inline-block rounded-xl bg-brand-100 text-brand-700 text-xs px-3 py-1 font-semibold shadow; }
+.pill { @apply rounded-full px-4 py-1 text-xs bg-brand-50 text-brand-700 font-medium shadow; }
