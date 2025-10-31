@@ -42,7 +42,31 @@ import { NgFor } from '@angular/common';
 })
 export class FiltersComponent {
   @Output() changed = new EventEmitter<Record<string, string>>();
-  categories = ['Text AI','Image AI','Video AI','Code AI','Productivity AI','Voice AI'];
+  categories = [
+    "Agriculture & Farming",
+    "AI Data Analysis Tools",
+    "AI Image Generation",
+    "AI Productivity & Automation",
+    "AI Video Creation & Editing",
+    "AI Writing Tools",
+    "Chatbots & Conversational AI",
+    "Construction and Architecture",
+    "AI Cybersecurity",
+    "AI Energy & Utilities",
+    "Financial Services & Fintech",
+    "Gaming & Entertainment",
+    "Government & Public Sector",
+    "Healthcare & Medical",
+    "Human Resources",
+    "Insurance",
+    "Legal Industry",
+    "Manufacturing & Industry 4.0",
+    "Real Estate & Property",
+    "Retail & E-commerce",
+    "Telecommunications",
+    "Transportation & Logistics",
+    "Travel & Hospitality"
+  ];
   private state: Record<string,string> = {};
   emit(key: string, value: string) {
     this.state[key] = value;
